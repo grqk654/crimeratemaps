@@ -356,7 +356,7 @@ function AffiliateBar({ score }) {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: 10 }}>
           {showSec && (
             <>
-              <a href="href="https://www.amazon.com/s?k=adt+home+security&tag=grqk6540-20" target="_blank" rel="noopener" style={{ textDecoration: 'none' }}>
+              <a href="https://www.amazon.com/s?k=adt+home+security&tag=grqk6540-20" target="_blank" rel="noopener" style={{ textDecoration: 'none' }}>
                 <div style={{ ...card, padding: '12px 16px', cursor: 'pointer' }}>
                   <div style={{ fontSize: 13, fontWeight: 500, color: C.text, marginBottom: 4 }}>ADT Home Security</div>
                   <div style={{ fontSize: 11, color: C.textDim }}>Professional monitoring from $28.99/mo</div>
