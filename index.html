@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crime Mapper — Free US Crime Rate Maps & Safety Data</title>
+    <meta name="description" content="Search any US city or zip code for real crime data, safety scores, and interactive maps. Powered by FBI UCR data. Free, no signup required." />
+    <link rel="canonical" href="https://www.crimeratemaps.com/" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body { background: #0d1520; color: #e8eef4; font-family: system-ui, -apple-system, sans-serif; }
+      .leaflet-container { background: #0a1520; }
+      .leaflet-popup-content-wrapper { background: #1a2535; border: 0.5px solid #2a3a50; border-radius: 8px; color: #e8eef4; box-shadow: none; }
+      .leaflet-popup-tip { background: #1a2535; }
+      .leaflet-popup-close-button { color: #7a8fa6 !important; }
+      .leaflet-control-zoom a { background: #1a2535; border-color: #2a3a50; color: #e8eef4; }
+      .leaflet-control-zoom a:hover { background: #2a3a50; }
+      .leaflet-control-attribution { background: rgba(10,16,24,0.8); color: #4a5f75; }
+      .leaflet-control-attribution a { color: #7a8fa6; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
