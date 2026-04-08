@@ -370,7 +370,7 @@ function AffiliateBar({ score }) {
                   <div style={{ fontSize: 11, color: C.red, marginTop: 6 }}>Build your system →</div>
                 </div>
               </a>
-              <a href="https://www.ring.com" target="_blank" rel="noopener" style={{ textDecoration: 'none' }}>
+              <a href="https://www.amazon.com/s?k=ring+doorbell&tag=grqk6540-20" target="_blank" rel="noopener" style={{ textDecoration: 'none' }}>
                 <div style={{ ...card, padding: '12px 16px', cursor: 'pointer' }}>
                   <div style={{ fontSize: 13, fontWeight: 500, color: C.text, marginBottom: 4 }}>Ring Video Doorbell</div>
                   <div style={{ fontSize: 11, color: C.textDim }}>See who\'s at your door from anywhere</div>
